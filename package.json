@@ -1,0 +1,45 @@
+{
+  "name": "mineflayer-statemachine-plugins",
+  "version": "1.0.0",
+  "description": "Extra plugin behaviors for mineflayer-statemachine!",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "ts-standard && tsc",
+    "clean": "rm -rf lib",
+    "test": "test",
+    "fix-lint": "ts-standard --fix"
+  },
+  "keywords": [
+    "ai",
+    "bot",
+    "mineflayer",
+    "mineflayer-statemachine",
+    "state",
+    "machine",
+    "fsm"
+  ],
+  "author": "Unusual Norm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnusualNorm/mineflayer-statemachine-plugins/issues"
+  },
+  "homepage": "https://github.com/UnusualNorm/mineflayer-statemachine-plugins#readme",
+  "dependencies": {
+    "mineflayer": "^4.1.0",
+    "mineflayer-pvp": "^1.2.1",
+    "mineflayer-statemachine": "^1.6.5"
+  },
+  "devDependencies": {
+    "ts-standard": "^11.0.0",
+    "typescript": "^4.6.2"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "ts-standard": {
+    "ignore": [
+      "lib"
+    ]
+  }
+}
